@@ -241,6 +241,7 @@ class Streamer():
 
 def main():
   streamer = Streamer()
+  streamer.config()
   streamer.runSync()
 
 if __name__ == "__main__":
